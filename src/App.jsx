@@ -21,10 +21,10 @@ const sectionVariant = {
 
 const App = () => {
   return (
-    <div className="relative min-h-screen bg-black overflow-x-hidden">
-      
+    <div className="relative min-h-screen bg-black ">
 
-      <div className="h-full w-screen absolute">
+      {/* 🔥 Background Particles */}
+      <div className="absolute inset-0 z-0 pointer-events-none">
         <Particles
           particleColors={["#ffffff"]}
           particleCount={2000}
@@ -38,20 +38,16 @@ const App = () => {
         />
       </div>
 
-      {/* Main Content */}
+      {/* 🔥 Foreground Content */}
       <div className="relative z-10 min-h-screen">
+
+        {/* Navbar MUST be here */}
         <Navbar />
 
-        {/* Hero */}
-        <motion.div
-          initial="hidden"
-          animate="visible"
-          variants={sectionVariant}
-        >
+        <motion.div initial="hidden" animate="visible" variants={sectionVariant}>
           <HeroSection />
         </motion.div>
 
-        {/* About */}
         <motion.div
           variants={sectionVariant}
           initial="hidden"
@@ -61,7 +57,6 @@ const App = () => {
           <About />
         </motion.div>
 
-        {/* Skills */}
         <motion.div
           variants={sectionVariant}
           initial="hidden"
@@ -71,7 +66,6 @@ const App = () => {
           <Skills />
         </motion.div>
 
-        {/* Projects */}
         <motion.div
           variants={sectionVariant}
           initial="hidden"
@@ -81,7 +75,6 @@ const App = () => {
           <Projects />
         </motion.div>
 
-        {/* Contact */}
         <motion.div
           variants={sectionVariant}
           initial="hidden"
@@ -91,7 +84,6 @@ const App = () => {
           <Contact />
         </motion.div>
 
-        {/* Footer */}
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -100,6 +92,7 @@ const App = () => {
         >
           <Footer />
         </motion.div>
+
       </div>
     </div>
   )

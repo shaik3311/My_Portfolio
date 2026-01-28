@@ -49,14 +49,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
-// {["Home", "About", "Skills", "Projects", "Contact"].map((item) => (
-//             <li
-//               key={item}
-//               className="cursor-pointer hover:text-blue-400 transition"
-//               onClick={() => setOpen(false)}
-//             >
-//               {item}
-//             </li>
-//           ))}
