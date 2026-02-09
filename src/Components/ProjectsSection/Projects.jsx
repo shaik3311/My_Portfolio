@@ -7,7 +7,7 @@ const Projects = () => {
       id: 1,
       title: "EFFICIO",
       description: "Efficio is a role-based employee task management web application built using React and the Context API. It enables administrators to assign tasks to employees, track progress in real time, and manage workflows efficiently, while employees can view their assigned tasks and update task statuses seamlessly.",
-      technologies: ["React", "Context API", "UI"],
+      technologies: ["React", "Context API", "Tailwind css"],
       image: "/Efficio.jpeg",
       github: "https://github.com/shaik3311/EFFICIO---An-Employee-Task-Management-Application-",
       demo: "https://efficio-tasks.netlify.app/"
