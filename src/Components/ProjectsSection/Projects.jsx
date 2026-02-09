@@ -5,12 +5,12 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "ToolsHub",
-      description: "Toolshub is a unified web platform offering a collection of useful tools designed for developers and students",
-      technologies: ["Javascript", "UI"],
-      image: "/ToolsHub.png",
-      github: "https://github.com/shaik3311/ToolsHub",
-      demo: "https://toolshub3311.netlify.app/"
+      title: "EFFICIO",
+      description: "Efficio is a role-based employee task management web application built using React and the Context API. It enables administrators to assign tasks to employees, track progress in real time, and manage workflows efficiently, while employees can view their assigned tasks and update task statuses seamlessly.",
+      technologies: ["React", "Context API", "UI"],
+      image: "/Efficio.jpeg",
+      github: "https://github.com/shaik3311/EFFICIO---An-Employee-Task-Management-Application-",
+      demo: "https://efficio-tasks.netlify.app/"
     },
     {
       id: 2,
@@ -23,6 +23,15 @@ const Projects = () => {
     },
     {
       id: 3,
+      title: "ToolsHub",
+      description: "Toolshub is a unified web platform offering a collection of useful tools designed for developers and students",
+      technologies: ["Javascript", "UI"],
+      image: "/ToolsHub.png",
+      github: "https://github.com/shaik3311/ToolsHub",
+      demo: "https://toolshub3311.netlify.app/"
+    },
+    {
+      id: 4,
       title: "Notes App",
       description: "A React-based notes application that allows users to create, edit, and manage notes with real-time updates, utilizing two-way data binding and local storage for persistent data storage.",
       technologies: ["React", "Tailwind css"],
